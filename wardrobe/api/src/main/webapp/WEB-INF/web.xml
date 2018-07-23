@@ -109,14 +109,5 @@
     <filter-name>CharacterEncodingFilter</filter-name>
     <url-pattern>/*</url-pattern>
   </filter-mapping>
-  <servlet>
-    <servlet-name>processUpload</servlet-name>
-    <servlet-class>com.wardrobe.controller.ProcessUpload</servlet-class>
-    <load-on-startup>1</load-on-startup>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>processUpload</servlet-name>
-    <url-pattern>/processUpload</url-pattern>
-  </servlet-mapping>
   
 </web-app>
